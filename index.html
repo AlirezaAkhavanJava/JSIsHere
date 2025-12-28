@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,30 @@
     <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1 id="helloText"><b>Hello</b></h1>
-    <h2 id="welcome">Wellcome to the most basic website in the universe</h2>
-    <script src="/main.js"></script>
+<h1>Welcome to BMI calculator</h1>
+<h3>Lets see which Family Guy character you are</h3>
+
+<label>
+  Height (cm):
+  <input type="number" id="height" placeholder="e.g. 175">
+</label>
+<br><br>
+
+<label>
+  Weight (kg):
+  <input type="number" id="weight" placeholder="e.g. 70">
+</label>
+<br><br>
+
+<button onclick="calculateBMI()">Calculate</button>
+
+<p id="result"></p>
+<img src="" alt="" id="who">
+
+<script src="/main.js"></script>
+
 </body>
+
 </html>

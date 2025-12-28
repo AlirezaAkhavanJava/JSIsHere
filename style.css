@@ -1,5 +1,67 @@
-:root{
-    background-color: rgb(176, 176, 176);
-    font-family: 'Dancing Script', cursive;
-    color: rgb(0, 0, 0);
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #e6f0ff; /* classic TV pastel blue */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  text-align: center;
+}
+
+/* Title: plain, TV-show boring on purpose */
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+/* Inputs: clean, nothing fancy */
+label {
+  display: block;
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+input {
+  padding: 6px;
+  font-size: 1rem;
+  width: 140px;
+  border: 1px solid #777;
+  border-radius: 4px;
+}
+
+/* Button: boring Fox-TV button */
+button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  border: 1px solid #444;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Result text */
+#result {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Character image: like a cutaway gag */
+#who {
+  display: block;
+  margin: 20px auto 0;
+  width: 240px;
+  background-color: #fff;
+  border: 1px solid #000;
 }
